@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MetaPix 2050</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h2>MetaPix 2050</h2>
+  <ul>
+    <li>Dashboard</li>
+    <li>Services</li>
+    <li>Analytics</li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1 id="heroTitle"></h1>
+  <p id="heroDesc"></p>
+
+  <div class="stats">
+    <div><h3 id="clients"></h3><p>Clients</p></div>
+    <div><h3 id="projects"></h3><p>Projects</p></div>
+    <div><h3 id="success"></h3><p>Success</p></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <div class="card" id="service1"></div>
+  <div class="card" id="service2"></div>
+  <div class="card" id="service3"></div>
+  <div class="card" id="service4"></div>
+</section>
+
+<!-- ANALYTICS -->
+<section class="analytics">
+  <h2>Performance Analytics</h2>
+  <canvas id="chart"></canvas>
+</section>
+
+<script src="app.js"></script>
+
+</body>
+</html>

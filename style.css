@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b0f1a;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgba(255,255,255,0.05);
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px;
+}
+
+.hero h1 {
+  color: #00f2ff;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Services */
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 40px;
+  gap: 20px;
+}
+
+.card {
+  padding: 30px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Analytics */
+.analytics {
+  padding: 50px;
+  text-align: center;
+}
+``
