@@ -42,3 +42,19 @@ new Chart(document.getElementById("chart"), {
     }]
   }
 });
+
+
+function animate(id, end) {
+  let start = 0;
+  let interval = setInterval(() => {
+    start++;
+    document.getElementById(id).innerText = start;
+    if (start >= end) clearInterval(interval);
+  }, 20);
+}
+
+// Example
+animate("clients", 120);
+animate("projects", 300);
+animate("success", 96);
+
